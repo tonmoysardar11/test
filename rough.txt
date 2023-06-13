@@ -1,0 +1,3 @@
+{articles.map((element, index) => {
+                            return <Item key={index} name={element.name} card_type={element.card_type} />
+                        })}
